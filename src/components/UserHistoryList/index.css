@@ -1,0 +1,63 @@
+.history-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding: 20px;
+  margin-bottom: 26px;
+  width: 100%;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.history-list-container {
+  display: flex;
+  flex-direction: row;
+}
+.browsing-time {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #64748b;
+  align-self: start;
+  margin-right: 24px;
+}
+.domain-container {
+  display: flex;
+  flex-direction: row;
+}
+.domain-card {
+  display: flex;
+  flex-direction: row;
+}
+.logo-image {
+  height: 40px;
+  width: 40px;
+}
+.browser-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+}
+.delete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-icon {
+  height: 18px;
+  width: 18px;
+}
